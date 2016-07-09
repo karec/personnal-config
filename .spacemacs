@@ -54,6 +54,10 @@ values."
    ;; are declared in a layer which is not a member of
    ;; the list `dotspacemacs-configuration-layers'. (default t)
    dotspacemacs-delete-orphan-packages t
+
+   ;; languages specific configuration
+   js-indent-level 2
+   js2-basic-offset 2
    ))
 
 (defun dotspacemacs/init ()
